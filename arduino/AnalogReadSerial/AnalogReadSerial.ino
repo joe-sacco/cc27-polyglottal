@@ -1,5 +1,4 @@
-// Code below adapted from Arduino example - AnalogReadSerial.ino
-
+// Code below adapted from https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
 
 /*
   AnalogReadSerial
@@ -10,7 +9,7 @@
 
   This example code is in the public domain.
 
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
+  
 */
 
 // the setup routine runs once when you press reset:
@@ -22,8 +21,10 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   // read the input on analog pin 0:
-  int sensorValue = analogRead(A0);
+  int sensorValue = analogRead(A0); 
   // print out the value you read:
-  Serial.println(sensorValue);
+  sensorValue = sensorValue - 11; // sensor range offset
+  Serial.println(constrain(sensorValue, 0, 127)); // constrained to MIDI note range
+  //Serial.println(sensorValue);
   delay(50);        // delay in between reads for stability
 }
