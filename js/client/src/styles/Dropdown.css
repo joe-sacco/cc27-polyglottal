@@ -1,11 +1,11 @@
 .dropdown-container {
-    margin-top: 50%;
-    padding-top: 50%;
+    margin-top: -20%;
+    padding-top: 0%;
 }
 
 .scales-lable {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 32px;
 }

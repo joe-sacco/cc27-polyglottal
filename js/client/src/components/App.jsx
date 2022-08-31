@@ -7,6 +7,8 @@ function App() {
 
   const [scale, setScale] = useState('calm');
 
+  // axios post req here
+  
   return (
     <>
       <div className="App">

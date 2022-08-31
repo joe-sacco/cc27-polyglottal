@@ -13,15 +13,15 @@ function Dropdown(props) {
 
     return (
         <>
-            <container className="dropdown-container">
+            <div className="dropdown-container">
                 <h2 className="scales-lable">Pick a scale</h2>
                 <select className="scale-menu" onChange={scaleSelector}>
                 {/* scale setting inspired by https://www.windsongchimes.com.au/ */}
-                    <option value="calm">Calm (pentatonic scale)</option>
-                    <option value="reflective">Reflective (minor scale)</option>
-                    <option value="hopeful">Hopefule (ancient scale)</option>
+                    <option value="calm">Calm (pentatonic)</option>
+                    <option value="reflective">Reflective (minor)</option>
+                    <option value="hopeful">Hopeful (ancient)</option>
                 </select>
-            </container>
+            </div>
         </>
     );
 
