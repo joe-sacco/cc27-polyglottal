@@ -2,6 +2,7 @@
 /documents
 /python/tutorial
 /python/bin
+/arduino/.DS_Store
 scales.py
 pyvenv.cfg
 
