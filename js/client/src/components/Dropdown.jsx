@@ -4,11 +4,8 @@ import '../styles/Dropdown.css';
 
 function Dropdown(props) {
 
-    // useEffect(() => {
-    // }, [])
     const scaleSelector = async () => {
         await props.setScale(document.querySelector('.scale-menu').value);
-        console.log(props.scale);
     }
 
     return (
@@ -26,6 +23,5 @@ function Dropdown(props) {
     );
 
 }
-
 
 export default Dropdown;
