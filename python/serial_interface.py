@@ -12,7 +12,7 @@ import pty
 #     PORT = os.ttyname(secondary) #virtual test port
 
 PORT = '/dev/cu.usbserial-FTDK64TL'
-# print('🟡', PORT)
+# print('PORT', PORT)
 
 ser = serial.Serial(PORT, 9600) #port name, baud rate
 time.sleep(2)
@@ -24,32 +24,3 @@ def read_serial_data():
     print('SENSOR', data_inverted)
     ser.reset_input_buffer()
     return data_inverted
-    # return data.decode().rstrip() # decode and strip r/n char
-
-# def print_serial():
-#     while(True): # read serial data on loop
-#         time.sleep(2)
-#         read_serial_data()
-
-# print_serial()
-
-
-# ser.close()
-# exit()
-
-
-# import serial
-# import time
-
-
-
-# BELOW CODE WORKS WHEN ARDUINO IS HOOKED UP!!
-
-# PORT = '/dev/cu.usbserial-FTDK64TL' # arduino usb port
-# ser = serial.Serial(PORT, 9600) #port name, baud rate
-# time.sleep(1)
-
-# def read_serial_data():
-#     data = ser.readline() #read line of data
-#     print(data.decode().rstrip()) 
-#     return data.decode().rstrip() # decode and strip r/n char

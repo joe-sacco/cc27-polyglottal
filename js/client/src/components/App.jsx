@@ -66,7 +66,7 @@ function App() {
 export default App;
 
 
-// BELOW CODE WORKS BUT REPLACED BY ABOVE!
+// BELOW CODE WORKS BUT REPLACED BY ABOVE
 
   //   const scaleSetting = {
   //     scale: 'scale',
@@ -85,25 +85,4 @@ export default App;
   //   console.log(data);
   // }, [scale])  // set mode based on scale
 
-  // END CODE THAT WORKS
 
-
-  // useEffect(() => {
-  //   if (scale) {
-  //     // if user location exists
-  //     switch (mode) {
-  //       case 'calm':
-  //         postScale('calm');
-  //         break;
-  //       case 'reflective':
-  //         postScale('reflective');
-  //         break;
-  //       case 'hopeful':
-  //         postScale('hopeful');
-  //         break;
-  //       default:
-  //         break;
-  //     }
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [scale, mode]);

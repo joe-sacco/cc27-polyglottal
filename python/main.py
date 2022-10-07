@@ -30,8 +30,10 @@ async def receive_scale(request: Request):
     scale_data = await request.json()
     global scale_setting
     scale_setting = scale_data["scale"]
-    print('🔴🔴🔴🔴🔴🔴🔴', scale_setting)
+    print('🔴🔴🔴', scale_setting)
     return scale_setting
+ 
+# REFACTOR OBTAIN SCALE IN PROGRESS
 
 # @app.get("/scale/")
 # def read_scale_data():
@@ -39,24 +41,10 @@ async def receive_scale(request: Request):
 
 # while True:
 #     sleep(2)
-#     print('🟦🟦🟦🟦🟦🟦🟦🟦', scale_setting)
-####### ABOVE CODE WORKS ########
-
-# def send_scale(scale_setting):
-#     return scale_setting
-
-# send_scale(scale_setting)
-
-# while True:
-#     sleep(2)
-#     return_scale(scale_setting)
-
-# def set_scale():
-#     return scale_setting
-
-# print(scale_setting)
-# scale_data = receive_scale()
-# print(receive_scale)
+#     print('🟦🟦🟦', scale_setting)
 
 # If you want access the body as string, you can use request.body()
+
+####### ABOVE CODE WORKS ########
+
 
