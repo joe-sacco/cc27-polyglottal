@@ -49,7 +49,8 @@
 ### Built With
 
 [![Python][Python]][Python-url]  
-[![Arduino][Arduino]][Arduino-url]  
+[![Arduino][Arduino]][Arduino-url]
+[![Javascript][Javascript]][Javascript-url]
 [![React][React]][React-url]
 [![Visual studio code][Visual studio code]][Visual studio code-url]  
 
@@ -151,6 +152,8 @@ Developer: [https://github.com/joe-sacco](https://github.com/joe-sacco)
 [Python-url]: https://www.python.org/
 [Arduino]: https://user-images.githubusercontent.com/102517425/193999702-341470ee-af1f-435f-91ce-d5de7f1f7695.png
 [Arduino-url]: https://www.arduino.cc/
+[Javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[Javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [React]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
 [React-url]: https://reactjs.org/
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
